@@ -9,11 +9,7 @@ node('master')
     {
         sh 'mvn package'
     }
-    
-   
-   
-   
-   
-   new added 
    
 }
+
+    
