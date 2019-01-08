@@ -1,2 +1,2 @@
-new changed done on the master branch
+this is to cause merge conflict
 bbbbbbbbbbbb
