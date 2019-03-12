@@ -1,19 +1,38 @@
-
-
-
 <!--changes done to pom.xml file-->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.example.maven-project</groupId>
-  <artifactId>maven-project</artifactId>
+  <groupId>com.github.ashokkumar</groupId>
+  <artifactId>ashokpush</artifactId>
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>Maven Project</name>
   <description>Sample Maven project with a working, deployable site.</description>
-  <url>http://www.example.com</url>
+  <url>https://github.com/ashokpush/intelli1</url>
+  
+  <licenses>
+  <license>
+    <name>MIT License</name>
+    <url>http://www.opensource.org/licenses/mit-license.php</url>
+  </license>
+  </licenses>
+  
+  <scm>
+  <connection>scm:git:git://github.com/ashokpush/intelli1.git</connection>
+  <developerConnection>scm:git:ssh://github.com/ashokpush/intelli1.git</developerConnection>
+  <url>https://github.com/ashokpush/intelli1.git</url>
+ </scm>
+  
+  <developers>
+    <developer>
+      <name>Ashok</name>
+      <email>ashoksuperb@gmail.com</email>
+      <organization>Sonatype</organization>
+      <organizationUrl>http://www.sonatype.com</organizationUrl>
+    </developer>
+   </developers>
 
   <properties>
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
@@ -29,7 +48,7 @@
     <site>
       <id>site-server</id>
       <name>Test Project Site</name>
-      <url>file:///tmp/maven-project-site</url>
+      <url>https://github.com/ashokpush/intelli1</url>
     </site>
   </distributionManagement>
 
@@ -209,16 +228,11 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
-
-  <scm>
-    <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
-    <developerConnection>scm:git:git@github.com:jleetutorial/maven-project.git</developerConnection>
-    <tag>HEAD</tag>
-    <url>http://github.com/jleetutorial/maven-project</url>
-  </scm>
-
-  <prerequisites>
+  
+   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
 
 </project>
+
+ 
